@@ -67,7 +67,7 @@ class HalamanBeranda extends StatelessWidget {
                     border: Border.all(color: Colors.black, width: 1.0),
                     image: DecorationImage(
                       image: AssetImage(
-                          'path/to/image2.jpg'), // Ganti dengan path gambar
+                          '../assets/images/gambarberanda2.jpg'), // Ganti dengan path gambar
                       fit: BoxFit.cover,
                     ),
                   ),
@@ -76,7 +76,7 @@ class HalamanBeranda extends StatelessWidget {
                     child: Padding(
                       padding: EdgeInsets.all(8.0),
                       child: Text(
-                        'Pilihan 2',
+                        'KATEGORI OLAHRAGA',
                         style: TextStyle(
                           color: Colors.white,
                           fontWeight: FontWeight.bold,
@@ -102,7 +102,7 @@ class HalamanBeranda extends StatelessWidget {
                     border: Border.all(color: Colors.black, width: 1.0),
                     image: DecorationImage(
                       image: AssetImage(
-                          'path/to/image3.jpg'), // Ganti dengan path gambar
+                          '../assets/images/gambarberanda3.jpg'), // Ganti dengan path gambar
                       fit: BoxFit.cover,
                     ),
                   ),
@@ -111,7 +111,7 @@ class HalamanBeranda extends StatelessWidget {
                     child: Padding(
                       padding: EdgeInsets.all(8.0),
                       child: Text(
-                        'Pilihan 3',
+                        'TANTANGAN OLAHRAGA',
                         style: TextStyle(
                           color: Colors.white,
                           fontWeight: FontWeight.bold,
@@ -134,22 +134,22 @@ class HalamanBeranda extends StatelessWidget {
               onPressed: () {
                 // Navigasi ke halaman navigasi 1
               },
-              icon:
-                  Image.asset('path/to/icon1.png'), // Ganti dengan path gambar
+              icon: Image.asset(
+                  '../assets/icons/icon_home.jpg'), // Ganti dengan path gambar
             ),
             IconButton(
               onPressed: () {
                 // Navigasi ke halaman navigasi 2
               },
-              icon:
-                  Image.asset('path/to/icon2.png'), // Ganti dengan path gambar
+              icon: Image.asset(
+                  '../assets/icons/icon_progress.jpg'), // Ganti dengan path gambar
             ),
             IconButton(
               onPressed: () {
                 // Navigasi ke halaman navigasi 3
               },
-              icon:
-                  Image.asset('path/to/icon3.png'), // Ganti dengan path gambar
+              icon: Image.asset(
+                  '../assets/icons/icon_profile.jpg'), // Ganti dengan path gambar
             ),
           ],
         ),
